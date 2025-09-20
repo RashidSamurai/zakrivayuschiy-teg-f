@@ -8,14 +8,14 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки  */
 
 .page {
-  display: flex;
-  min-block-size: 100dvb;
   min-inline-size: 320px;
-  font-weight: 400;
-  background-attachment: fixed;
-  background-image: var(--background-gradient);
-  font-variation-settings: var(--font-main-wght);
+  min-block-size: 100dvb;
   font-family: var(--main-font);
+  font-variation-settings: var(--font-main-wght);
+  font-weight: 400;
+  background-image: var(--background-gradient);
+  background-attachment: fixed;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -93,11 +93,9 @@
   inset-block-start: 24px;
   font-size: var(--button-fs);
   font-family: var(--accent-font);
-  text-shadow: 
-   -0.4px 0 0 rgb(255 255 255 / 0.5),
-   0.4px 0 0 rgb(255 255 255 / 0.5), 
-   0 -0.4px 0 rgb(255 255 255 / 0.5),
-   0 0.4px 0 rgb(255 255 255 / 0.5);
+  text-shadow: -0.4px 0 0 rgb(255 255 255 / 0.5),
+    0.4px 0 0 rgb(255 255 255 / 0.5), 0 -0.4px 0 rgb(255 255 255 / 0.5),
+    0 0.4px 0 rgb(255 255 255 / 0.5);
   text-transform: uppercase;
   mix-blend-mode: hard-light;
 }
