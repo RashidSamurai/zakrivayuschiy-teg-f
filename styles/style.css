@@ -21,16 +21,13 @@
 }
 .header {
   width: 100%;
-  max-width: var(--card-max-width);
   overflow: hidden;
-  margin-block-start: var(--header-margin-top);
   gap: clamp(10px, 2vw, 20px);
   box-sizing: border-box;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
   padding: 128px 120.5px;
   margin-block-start: 100px;
   border: 2px solid var(--border-color);
