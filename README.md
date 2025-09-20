@@ -1,1 +1,1 @@
-https://github.com/RashidSamurai/zakrivayuschiy-teg-f
+https://rashidsamurai.github.io/zakrivayuschiy-teg-f/
