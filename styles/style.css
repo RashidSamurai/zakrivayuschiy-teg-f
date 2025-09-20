@@ -13,9 +13,9 @@
   display: flex;
   min-block-size: 100vh;
   min-inline-size: 320px;
+  font-variation-settings: var(--font-main-wght);
   font-family: var(--main-font);
   background-image: var(--background-gradient);
-  font-variation-settings: var(--font-main-wght);
   background-attachment: fixed;
   flex-direction: column;
   align-items: center;
